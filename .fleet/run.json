@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "node",
+            "name": "My Node.js Application",
+            "file": "src/index.js", // Path to your main script
+            "workingDir": "${project.directory}", // Working directory for your application
+            "env": {
+                "NODE_ENV": "development" // Environment variable
+            },
+            "nodeOptions": "--inspect", // Additional node options
+            "stopOnExit": true, // Stop debugging after program exits
+            "cwd": "${fileDirname}", // Current working directory (optional)
+            "port": 3000, // Port number used by your application (optional)
+            "preRunTasks": [], // Pre-run tasks before starting the application (optional)
+            "postRunTasks": [], // Post-run tasks after stopping the application (optional)
+        }
+    ]
+}
