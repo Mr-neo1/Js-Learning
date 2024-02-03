@@ -1,0 +1,14 @@
+#parent{
+    margin: 20%;
+    color:aliceblue;
+    align-content: center;
+    margin-bottom: 50%;
+    background-color: red;
+    padding-bottom: 10%;
+}
+#child{
+    background-color: white;
+    color: black;
+    margin:20%;
+    padding: 20%;
+}
